@@ -73,10 +73,13 @@ function local_greetings_extend_navigation_frontpage(navigation_node $frontpage)
     );
 }
 /**
- * Insert a link to index.php on the navigation menu.
+ * Extend the global navigation with a custom node for the Local Greetings plugin.
+ *
+ * This function adds a custom navigation node to the global navigation tree,
+ * linking to the index.php page of the Local Greetings plugin.
  *
  * @package local_greetings
- * @param   navigation_node $frontpage Node representing the front page in the navigation tree.
+ * @param global_navigation $root The root node of the global navigation tree.
  */
 function local_greetings_extend_navigation(global_navigation $root) {
     $node = navigation_node::create(
