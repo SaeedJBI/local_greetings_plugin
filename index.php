@@ -1,5 +1,5 @@
 <?php
-// This file is part of Moodle - https://moodle.org/.
+// This file is part of Moodle - https://moodle.org//.
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -37,5 +37,5 @@ if (isloggedin()) {
 } else {
     echo get_string('greetinguser', 'local_greetings');
 }
-    
+
 echo $OUTPUT->footer();
